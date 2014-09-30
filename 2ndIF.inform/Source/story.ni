@@ -1,22 +1,42 @@
-"2ndIF" by Dakota Miller
+"What happened last night?" by Dakota Miller
 
-When play begins, say "You wake up in a field room with no memory of what happened last nignt. You search your pockets and find that you only have a"
+When play begins, say "You wake up in a grassy field with no memory of what happened last nignt. You search your pockets and find that you only have a a stick of gum and a rusty razor blade. As you come to you glance at your watch you notice that it is thursday at 800, ONE AND A HALF HOURS BEFORE YOUR BIG JOB INTERVIEW! You begin to panic but then relizing that you are just a 25 minute drive outside of town, and can still make it. Now if you just had a car. . ."
 
-Field is a room. Barn is north of Field. Garage is east of Field. Corn Field is south of Field. Forest is west of Field. 
+rusty razor blade is a thing. rusty razor blade is carried by the player.
 
-Barn is a room.
+stick of gum is a thing. stick of gum is carried by the player.
 
-Garage is a room.
+[field]
+Field is a room. 
 
-Corn Field is a room.
+[barn]
+Barn is a room. Barn is north of Field. 
 
-Forest is a room.
+[shed]
+Shed is a room. shed is east of field
 
-The dog is a thing.The dog is in the field. The dog is portable.
+Carport is scenery in Shed. It is a closed openable container. It is locked and lockable. key unlocks carport.
+
+[corn field]
+Corn Field is a room.  Corn Field is south of Field.
+
+[forest]
+Forest is a room. Forest is west of Field. 
+
+Key is a thing. Key unlocks carport. key is in dog.
+
+The dog is a thing. The dog is in the field. The dog is portable. Key is undescribed.
+
+[Every turn: if the Dog is in a room (called the current space) begin;
+let next space be a random room;
+if The Dog is visible, say "The Dog heads to [the next space].";
+move The Dog to next space;
+if The Dog is visible, say "The Dog arrives from [the current space].";
+end if.]
 
 Every turn: if the Dog is in a room (called the current space) begin;
 let next space be a random room;
-if the Dog is visible, say  "The Dog is also here";
-move the Dog to next space;
-if the Dog is visible, say  "The dog is also here";
+if the The Dog is visible, say "The Dog leaves";
+move the The Dog to next space;
+if the The Dog is visible, say "The dog is here";
 end if.
