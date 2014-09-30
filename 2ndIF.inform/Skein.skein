@@ -1,21 +1,82 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x7e4090" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x7e4090" />
+  <activeNode nodeId="node-0x8285ef0" />
   <item nodeId="node-0x7e4090">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
+You wake up in a field room with no memory of what happened last nignt. You search your pockets and find that you only have a
 2ndIF
 An Interactive Fiction by Dakota Miller
 Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
-Front Room
+Field
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="6">NO</temporary>
+    <children>
+      <child nodeId="node-0x826db20" />
+    </children>
+  </item>
+  <item nodeId="node-0x826db20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Barn
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x6834000" />
+    </children>
+  </item>
+  <item nodeId="node-0x6834000">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x68de170" />
+    </children>
+  </item>
+  <item nodeId="node-0x68de170">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Field
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x8270eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8270eb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x8285ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8285ef0">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
   </item>
 </Skein>

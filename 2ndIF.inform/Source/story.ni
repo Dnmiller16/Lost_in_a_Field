@@ -12,11 +12,11 @@ Corn Field is a room.
 
 Forest is a room.
 
-The dog is in the Bathroom. The dog is portable.
+The dog is a thing.The dog is in the field. The dog is portable.
 
 Every turn: if the Dog is in a room (called the current space) begin;
 let next space be a random room;
-if the Tabby Cat is visible, say "The Dog runs away from you";
-move the Tabby Cat to next space;
-if the Tabby Cat is visible, say "The dog is also here";
+if the Dog is visible, say  "The Dog runs away from you";
+move the Dog to next space;
+if the Dog is visible, say  "The dog is also here";
 end if.
