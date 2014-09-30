@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x6c21b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x142aaeb0" />
+  <activeNode nodeId="node-0x6c21b0" />
   <item nodeId="node-0x6c21b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -14,16 +14,19 @@ An Interactive Fiction by Dakota Miller
 Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Field
-A large grassy field with a tractor under a large apple tree under in it. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running everywhere. To the north is the barn, to the south is is a corn field, and to the west is a forest.
 
-A medium sized sheep dog with a light blue collar around its neck
+A silver key that unlocks something
+
+A blue collar with a key hanging from it
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="42">NO</temporary>
+    <temporary score="112">NO</temporary>
     <children>
       <child nodeId="node-0x142aaeb0" />
+      <child nodeId="node-0x1b8af450" />
       <child nodeId="node-0x4345b10" />
       <child nodeId="node-0x1b3810" />
       <child nodeId="node-0xd486f10" />
@@ -34,27 +37,307 @@ A medium sized sheep dog with a light blue collar around its neck
   </item>
   <item nodeId="node-0xd495c90">
     <command xml:space="preserve">x dog</command>
-    <result xml:space="preserve">With dog is empty.
+    <result xml:space="preserve">On dog is collar.
 
-The Dog heads to Corn Field.
-
+The Dog runs away
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="111">YES</temporary>
   </item>
   <item nodeId="node-0x6c25d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Barn
+A large red and white 2 story barn with piles of hay on the ground. There are also two black and white cows roaming around the barn. Hanging on the wall is a milking bucket and next to it also leaning ont he wall is a pitchfork. Back to the south is the field.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <temporary score="64">YES</temporary>
     <children>
       <child nodeId="node-0x6c2640" />
+      <child nodeId="node-0x14296470" />
     </children>
+  </item>
+  <item nodeId="node-0x14296470">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x199c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x199c90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x17567a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x17567a00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+A white aluminaum garage door that is locked
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x124388b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x124388b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening metal door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x14219940" />
+    </children>
+  </item>
+  <item nodeId="node-0x14219940">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0xd432f10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd432f10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x175a16e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x175a16e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x1242cb40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1242cb40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Barn
+A large red and white 2 story barn with piles of hay on the ground. There are also two black and white cows roaming around the barn. Hanging on the wall is a milking bucket and next to it also leaning ont he wall is a pitchfork. Back to the south is the field.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x175ac880" />
+    </children>
+  </item>
+  <item nodeId="node-0x175ac880">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x12a93240" />
+    </children>
+  </item>
+  <item nodeId="node-0x12a93240">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+A white aluminaum garage door that is locked
+
+The Dog leavesThe dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x148a3980" />
+    </children>
+  </item>
+  <item nodeId="node-0x148a3980">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x14219630" />
+    </children>
+  </item>
+  <item nodeId="node-0x14219630">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Barn
+A large red and white 2 story barn with piles of hay on the ground. There are also two black and white cows roaming around the barn. Hanging on the wall is a milking bucket and next to it also leaning ont he wall is a pitchfork. Back to the south is the field.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x12433f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x12433f40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x17569860" />
+    </children>
+  </item>
+  <item nodeId="node-0x17569860">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+A white aluminaum garage door that is locked
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x12a96160" />
+    </children>
+  </item>
+  <item nodeId="node-0x12a96160">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+The Dog leaves
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x175c83a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x175c83a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Forest
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x1757b4e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1757b4e0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x1754fc30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1754fc30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x142005d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x142005d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x12a98660" />
+    </children>
+  </item>
+  <item nodeId="node-0x12a98660">
+    <command xml:space="preserve">take eky</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="64">YES</temporary>
+    <children>
+      <child nodeId="node-0x148ab6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x148ab6e0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
   </item>
   <item nodeId="node-0x6c2640">
     <command xml:space="preserve">n</command>
@@ -487,16 +770,121 @@ The Dog heads to Barn.
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
-The large furry The Dog leaves.
+The Dog leaves
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x4328210" />
+      <child nodeId="node-0x8eb0990" />
+      <child nodeId="node-0x12a853a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12a853a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Corn Field
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="28">YES</temporary>
+    <temporary score="73">YES</temporary>
     <children>
-      <child nodeId="node-0x4328210" />
-      <child nodeId="node-0x8eb0990" />
+      <child nodeId="node-0x1427a6d0" />
     </children>
+  </item>
+  <item nodeId="node-0x1427a6d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x1420ade0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1420ade0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running everywhere. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x14879c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x14879c80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+A white aluminaum garage door that is locked
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x12a81c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x12a81c60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running everywhere. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0xd4ae600" />
+    </children>
+  </item>
+  <item nodeId="node-0xd4ae600">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Forest
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x1242a820" />
+    </children>
+  </item>
+  <item nodeId="node-0x1242a820">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Field
+A large grassy field with a tractor under a large apple tree and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running everywhere. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+The Dog leaves
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x14299780" />
+    </children>
+  </item>
+  <item nodeId="node-0x14299780">
+    <command xml:space="preserve">x dog</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
   </item>
   <item nodeId="node-0x8eb0990">
     <command xml:space="preserve">e</command>
@@ -572,8 +960,225 @@ You can see a metal door and Key here.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
   </item>
+  <item nodeId="node-0x1b8af450">
+    <command xml:space="preserve">score</command>
+    <result xml:space="preserve">There is no score in this story.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x142671f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x142671f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0xd4ddc40" />
+    </children>
+  </item>
+  <item nodeId="node-0xd4ddc40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x12438900" />
+    </children>
+  </item>
+  <item nodeId="node-0x12438900">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bba8500" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bba8500">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bba5140" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bba5140">
+    <command xml:space="preserve">sadksad&apos;a</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb8b1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb8b1d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8afae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8afae0">
+    <command xml:space="preserve">sad</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b895e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b895e90">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x1423c3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1423c3a0">
+    <command xml:space="preserve">ad</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ee4e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ee4e40">
+    <command xml:space="preserve">sd</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x18d4ec70" />
+    </children>
+  </item>
+  <item nodeId="node-0x18d4ec70">
+    <command xml:space="preserve">sas</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e308a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e308a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb950b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb950b0">
+    <command xml:space="preserve">ds</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x11eda8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11eda8f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x18d14c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x18d14c80">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b876340" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b876340">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x142aca00" />
+    </children>
+  </item>
+  <item nodeId="node-0x142aca00">
+    <command xml:space="preserve">dog</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="108">YES</temporary>
+  </item>
   <item nodeId="node-0x142aaeb0">
     <command xml:space="preserve">x field</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
