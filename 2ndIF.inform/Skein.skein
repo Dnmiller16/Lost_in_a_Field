@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x7e4090" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x8285ef0" />
+  <activeNode nodeId="node-0x82a6ae0" />
   <item nodeId="node-0x7e4090">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -13,14 +13,130 @@ An Interactive Fiction by Dakota Miller
 Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Field
+You can see a dog here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="6">NO</temporary>
+    <temporary score="15">NO</temporary>
     <children>
       <child nodeId="node-0x826db20" />
+      <child nodeId="node-0x22b410" />
     </children>
+  </item>
+  <item nodeId="node-0x22b410">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x82b3c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x82b3c70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Field
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e2880" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e2880">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Barn
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x68f6910" />
+    </children>
+  </item>
+  <item nodeId="node-0x68f6910">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Field
+You can see a dog here.
+
+The Dog runs away from you
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e18b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e18b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Forest
+You can see a dog here.
+
+The Dog runs away from you
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x68577b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68577b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Field
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x68d73a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68d73a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Forest
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e9520" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e9520">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Field
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x82a6ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x82a6ae0">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
   </item>
   <item nodeId="node-0x826db20">
     <command xml:space="preserve">n</command>
@@ -75,6 +191,10 @@ Garage
   </item>
   <item nodeId="node-0x8285ef0">
     <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Field
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>

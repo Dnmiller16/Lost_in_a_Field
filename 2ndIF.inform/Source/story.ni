@@ -16,7 +16,7 @@ The dog is a thing.The dog is in the field. The dog is portable.
 
 Every turn: if the Dog is in a room (called the current space) begin;
 let next space be a random room;
-if the Dog is visible, say  "The Dog runs away from you";
+if the Dog is visible, say  "The Dog is also here";
 move the Dog to next space;
 if the Dog is visible, say  "The dog is also here";
 end if.
