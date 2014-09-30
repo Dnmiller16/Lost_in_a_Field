@@ -1,13 +1,22 @@
 "2ndIF" by Dakota Miller
 
-When play begins, say "You wake up in a dark room with no memory of what happened last nignt. You search your pockets and find that you only have a"
+When play begins, say "You wake up in a field room with no memory of what happened last nignt. You search your pockets and find that you only have a"
 
-Lab is a room. Bedroom is north of Lab. library is east of Lab. Kitchen is south of Lab. Front Room is west of Lab. 
+Field is a room. Barn is north of Field. Garage is east of Field. Corn Field is south of Field. Forest is west of Field. 
 
-Bedroom is a room.
+Barn is a room.
 
-library is a room.
+Garage is a room.
 
-Kitchen is a room.
+Corn Field is a room.
 
-Front Room is a room.
+Forest is a room.
+
+The dog is in the Bathroom. The dog is portable.
+
+Every turn: if the Dog is in a room (called the current space) begin;
+let next space be a random room;
+if the Tabby Cat is visible, say "The Dog runs away from you";
+move the Tabby Cat to next space;
+if the Tabby Cat is visible, say "The dog is also here";
+end if.
