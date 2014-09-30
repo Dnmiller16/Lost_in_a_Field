@@ -1,31 +1,34 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x6c21b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x6c2200" />
+  <activeNode nodeId="node-0x142aaeb0" />
   <item nodeId="node-0x6c21b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-You wake up in a grassy field with no memory of what happened last nignt. You search your pockets and find that you only have a a stick of gum and a rusty razor blade. As you come to you glance at your watch you notice that it is thursday at 800, ONE AND A HALF HOURS BEFORE YOUR BIG JOB INTERVIEW! You begin to panic but then relizing that you are just a 25 minute drive outside of town, and can still make it. Now if you just had a car. . .
+You wake up in a grassy field with no memory of what happened last nignt. You search your pockets and find that you only have a a stick of gum, a rusty razor blade, and a bag of white powder. As you come to you glance at your watch you notice that it is thursday at 800, ONE AND A HALF HOURS BEFORE YOUR BIG JOB INTERVIEW! You begin to panic but then relizing that you are just a 25 minute drive outside of town, and can still make it. Now if you just had a car. . .
 
 What happened last night?
 An Interactive Fiction by Dakota Miller
 Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Field
-You can see dog here.
+A large grassy field with a tractor under a large apple tree under in it. You can just the sun rising over the shed which is to the east.  There is also a dog standing here, he seems excited and keeps running around. To the north is the barn, to the south is is a corn field, and to the west is a forest.
+
+A medium sized sheep dog with a light blue collar around its neck
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="29">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="42">NO</temporary>
     <children>
-      <child nodeId="node-0xd486f10" />
-      <child nodeId="node-0x6c25d0" />
-      <child nodeId="node-0x6c2200" />
-      <child nodeId="node-0x1b3810" />
+      <child nodeId="node-0x142aaeb0" />
       <child nodeId="node-0x4345b10" />
+      <child nodeId="node-0x1b3810" />
+      <child nodeId="node-0xd486f10" />
+      <child nodeId="node-0x6c2200" />
+      <child nodeId="node-0x6c25d0" />
       <child nodeId="node-0xd495c90" />
     </children>
   </item>
@@ -40,58 +43,68 @@ The Dog heads to Corn Field.
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0x4345b10">
-    <command xml:space="preserve">N</command>
+  <item nodeId="node-0x6c25d0">
+    <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Barn
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="16">YES</temporary>
+    <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x43b9be0" />
+      <child nodeId="node-0x6c2640" />
     </children>
   </item>
-  <item nodeId="node-0x43b9be0">
-    <command xml:space="preserve">W</command>
+  <item nodeId="node-0x6c2640">
+    <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="16">YES</temporary>
+    <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0xd48ff10" />
+      <child nodeId="node-0x6c2770" />
     </children>
   </item>
-  <item nodeId="node-0xd48ff10">
-    <command xml:space="preserve">S</command>
+  <item nodeId="node-0x6c2770">
+    <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Field
-You can see a metal door and Key here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b3810">
-    <command xml:space="preserve">take key</command>
-    <result xml:space="preserve">Taken.
-
-The large furry The Dog leaves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
+    <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x4328210" />
-      <child nodeId="node-0x8eb0990" />
+      <child nodeId="node-0x6c2460" />
     </children>
   </item>
-  <item nodeId="node-0x8eb0990">
+  <item nodeId="node-0x6c2460">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c27e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c27e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Field
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c2200">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Shed
@@ -99,45 +112,7 @@ Shed
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x12450590" />
-    </children>
-  </item>
-  <item nodeId="node-0x12450590">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Field
-You can see dog (empty) here.
-
-The large furry The Dog leaves.
-There is a large furry The Dog here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="27">YES</temporary>
-  </item>
-  <item nodeId="node-0x4328210">
-    <command xml:space="preserve">drop key</command>
-    <result xml:space="preserve">Dropped.
-
-The Dog heads to Garage.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="17">YES</temporary>
-  </item>
-  <item nodeId="node-0x6c2200">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Garage
-The dog is also here
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
+    <temporary score="41">YES</temporary>
     <children>
       <child nodeId="node-0x6c2250" />
       <child nodeId="node-0x26c070" />
@@ -250,8 +225,8 @@ Field
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="41">YES</temporary>
     <children>
       <child nodeId="node-0x6c22a0" />
     </children>
@@ -260,14 +235,125 @@ Field
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Barn
+You can see dog here.
+
+The Dog leaves
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c22f0" />
+      <child nodeId="node-0x11ea2c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ea2c00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="15">YES</temporary>
+    <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0x6c22f0" />
+      <child nodeId="node-0xd42e0a0" />
     </children>
+  </item>
+  <item nodeId="node-0xd42e0a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Field
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0xd420d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xd420d00">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+The Dog leavesThe dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0xd4f0d90" />
+    </children>
+  </item>
+  <item nodeId="node-0xd4f0d90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x43d02d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x43d02d0">
+    <command xml:space="preserve">open carport</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x1249f470" />
+    </children>
+  </item>
+  <item nodeId="node-0x1249f470">
+    <command xml:space="preserve">unlock carport</command>
+    <result xml:space="preserve">What do you want to unlock Carport with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x12485ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12485ef0">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock Carport.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0xd444800" />
+    </children>
+  </item>
+  <item nodeId="node-0xd444800">
+    <command xml:space="preserve">open carport</command>
+    <result xml:space="preserve">You open Carport.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x124b5e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x124b5e90">
+    <command xml:space="preserve">enter carport</command>
+    <result xml:space="preserve">That&apos;s not something you can enter.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
   </item>
   <item nodeId="node-0x6c22f0">
     <command xml:space="preserve">s</command>
@@ -344,67 +430,6 @@ Field
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0x6c25d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Barn
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c2640" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c2640">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c2770" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c2770">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Field
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c2460" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c2460">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Garage
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c27e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c27e0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Field
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-  </item>
   <item nodeId="node-0xd486f10">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
@@ -457,5 +482,100 @@ The Dog heads to Barn.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b3810">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+The large furry The Dog leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x4328210" />
+      <child nodeId="node-0x8eb0990" />
+    </children>
+  </item>
+  <item nodeId="node-0x8eb0990">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x12450590" />
+    </children>
+  </item>
+  <item nodeId="node-0x12450590">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Field
+You can see dog (empty) here.
+
+The large furry The Dog leaves.
+There is a large furry The Dog here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+  </item>
+  <item nodeId="node-0x4328210">
+    <command xml:space="preserve">drop key</command>
+    <result xml:space="preserve">Dropped.
+
+The Dog heads to Garage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x4345b10">
+    <command xml:space="preserve">N</command>
+    <result xml:space="preserve">
+Barn
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x43b9be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x43b9be0">
+    <command xml:space="preserve">W</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0xd48ff10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd48ff10">
+    <command xml:space="preserve">S</command>
+    <result xml:space="preserve">
+Field
+You can see a metal door and Key here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0x142aaeb0">
+    <command xml:space="preserve">x field</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
   </item>
 </Skein>
