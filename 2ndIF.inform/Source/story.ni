@@ -1,21 +1,27 @@
+[need to:
+	- fix door
+	- make car
+	- place key in box in tool chest]
+
+
 "What happened last night?" by Dakota Miller
 
 When play begins, say "You wake up in a grassy field with no memory of what happened last nignt. You search your pockets and find that you only have a a stick of gum, a rusty razor blade, and a bag of white powder. There is also a dog running around the farm that looks vaguely farmiliar. As you come to you glance at your watch you notice that it is thursday at 800, ONE AND A HALF HOURS BEFORE YOUR BIG JOB INTERVIEW! You begin to panic but then relizing that you are just a 25 minute drive outside of town, and can still make it. Now if you just had a car. . ."
 
-Rusty razor blade is a thing. rusty razor blade is carried by the player. "A rusty razor blade"
+Rusty razor blade is a thing. rusty razor blade is carried by the player.  the description is "A rusty razor blade"
 
-Stick of gum is a thing. stick of gum is carried by the player. " A stick of juicy fruit gum"
+Stick of gum is a thing. stick of gum is carried by the player. the description is " A stick of juicy fruit gum"
 
-Pink speedo is a thing. it is carried by the player. "A tiny pink speedo adorned with sequence and glitter"
+Pink speedo is a thing. it is carried by the player.  the description is "A tiny pink speedo adorned with sequence and glitter"
 
-Bag of white powder is a thing. bag of white powder is carried by the player. "A bag of what may or may not be drugs and possibly the reason you're lying in this field"
+Bag of white powder is a thing. bag of white powder is carried by the player.  the description is "A bag of what may or may not be drugs and possibly the reason you're lying in this field"
 
 Watch is a thing. watch is carried by the player. "A small black wrist watch"
 
 [field]
 Field is a room.  "A large grassy field with a large apple tree in the center of it and a large patch of tall grass next to you. You can just the sun rising over the shed which is to the east.  To the north is the barn, to the south is is a corn field, and to the west is a forest."
 
-Piece of paper is a thing. It is in the field. It is undescribed. "The paper reads: For a good time call 1-800-6969-911"
+Piece of paper is a thing. It is in the field. It is undescribed.  the description is "The paper reads: For a good time call 1-800-6969-911"
 
 Tall grass is scenery in field. "You rustle through the tall grass and find a small piece of crumpled paper" 
 
@@ -28,11 +34,11 @@ Piles of hay is scenery in the barn. "You rustle through the golden hay and get 
 
 Two cows is scenery in barn. "Two female black and white cows, each with a cow bell around its neck"
 
-Bell is a thing in the barn. "A small brass cowbell that reads Betsy"
+Bell is a thing in the barn. the description is "A small brass cowbell that reads Betsy"
 
-Milking bucket is a thing in the barn. "A medium sized aluminaum bucked used to catch the milk from the cows"
+Milking bucket is a thing in the barn. the description is "A medium sized aluminaum bucked used to catch the milk from the cows"
 
-Pitchfork is a thing in the barn. "A metal and wood pitchfork used for moving hay around the barn"
+Pitchfork is a thing in the barn. the description is "A metal and wood pitchfork used for moving hay around the barn"
 
 [shed]
 Shed is a room. shed is east of field. "A medium sized metal shed made of couragated tin plates. There are many tools scattered around the shed as well as some old wooden fence posts and barbed wire. To the north a car port is attached to the shed behind a locked metal door. back th the east is the field"
@@ -57,9 +63,9 @@ Scarecrow is a scenery in field. "A scarecrow made out of hay that is used to ke
 
 [everything else]
 
-Carkey is a thing. Carkey is in tool chest. Carkey unlocks car. "A key that unlocks and starts the car"
+Carkey is a thing. Carkey is in tool chest. Carkey unlocks car. the description is "A key that unlocks and starts the car"
 
-Key is a thing. Key unlocks metal door. key is in collar. Key is undescribed. "A silver key that unlocks something"
+Key is a thing. Key unlocks metal door. key is in collar. Key is undescribed. the description is "A silver key that unlocks something"
 
 collar is scenery. collar is on dog. collar is undescribed. "A blue collar with a key hanging from it"
 
@@ -74,5 +80,5 @@ move the The Dog to next space;
 if the The Dog is visible, say "The dog is here";
 end if.
 
-
+understand "read" as examining.
 
