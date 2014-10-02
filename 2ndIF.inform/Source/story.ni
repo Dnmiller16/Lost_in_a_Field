@@ -58,7 +58,7 @@ Floor is scenery in shed. "A cement floor covered in an assortment of different 
 
 Barbed wire is a thing. it is in shed. it is undescribed. the description is "This just screams tetanus"
 
-Wooden fence is a thing. it is in shed. is is undescribed. the description of wood fence is "Sections from a white fence"
+Wooden fence is a thing. it is in shed. wooden fence is undescribed. the description of wooden fence is "Sections from a white fence"
 
 Workbench is scenery in shed. "A wooden work bench with a tool chest and a pile of cut wood on it."
 
@@ -77,12 +77,12 @@ Wrench is a thing. wrench is in tool chest. is is undescribed. the description o
 [carport]
 Carport is a room. "In the middle of the room sits a dull red car. Everything in this room is covered in a thin layer of dust and dirt. Back to the south is the shed."
 
-Cardoor is scenery in carport. "A dull red door with a silver lock that fits a flat key"
+Cardoor is scenery in carport. "A dull red door with a low quality silver lock that fits a flat key"
 
-Car is in carport. Car is a vehicle. car is locked. car is closed and openable. "A dull red Camaro sport with two doors that is yout ticket off of this farm."
+Car is in carport. Car is a vehicle. car is locked. car is closed and openable. it is undescribed. "A dull red Camaro sport with two doors that is yout ticket off of this farm."
 
 	
-Metal door is a door.  Metal door is north of shed and south of Carport. Metal door is open and openable. Metal door is unlocked. Metal door is undescribed. "A white aluminaum garage door that is locked"
+The metal door is a door. The metal door is scenery. The metal door is north of shed and south of Carport. The metal door is openable. The metal door is locked. "A white aluminaum garage door that is locked"
 
 
 [Metal door is a door.  Metal door is north of shed and south of Carport. Metal door is closed and openable. Metal door is locked. Metal door is undescribed. "A white aluminaum garage door that is locked"]
@@ -107,22 +107,22 @@ Corn stalk is scenery. is is in cornfied. "A green corn stalk that is just begin
 
 [everything else]
 
-A carkey is a thing. A Carkey is in box. the description is "A key that unlocks and starts a car"
+A carkey is a thing. A Carkey is in the small box. the description is "A key that unlocks and starts a car"
 
-Screwdriver is a thing. it is in tool box. Screwdriver unlocks car.  The description is "A medium sized screw driver with a flat broad head"
+Screwdriver is a thing. it is in tool chest. Screwdriver unlocks car.  The description is "A medium sized screw driver with a flat broad head"
 
-the box is a container. it is a closed openable container. the box is in tool chest. the description is "A small blue cardboard box"
+the small box is a container. it is a closed openable container. the small box is in tool chest. the description is "A small blue cardboard box"
 
 Key is a thing. Key unlocks metal door. key is in collar. Key is undescribed. the description is "A silver key that unlocks something"
 
-collar is scenery. collar is on dog. collar is undescribed. "A blue collar with a key hanging from it"
+Collar is scenery. collar is on dog. collar is undescribed. "A blue collar with a key hanging from it"
 
 The dog is scenery. The dog is in the field. The dog is portable. the dog is undescribed. "A medium sized sheep dog with a light blue collar around its neck"
 
 The description of the player is "You are only wearing a sparkly pink speedo and a watch and are otherwise bar"
 
 After entering Car:
-	say "You breathe a sigh of releif as you start the car too begin your drive back to town. Your only problem now is what you're wearing, but you will worry about this later . . .";
+	say "You get in and breathe a sigh of releif as you start the car to begin your drive back to town. Your only problem now is what you're wearing, but you will worry about this later . . .";
 	end the story finally.
 
 Every turn: if the Dog is in a room (called the current space) begin;
