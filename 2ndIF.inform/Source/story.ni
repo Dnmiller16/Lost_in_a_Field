@@ -6,7 +6,7 @@
 
 
 When play begins:
-say "You wake up in a grassy field with no memory of what happened last nignt. You search your pockets and find that you only have a a stick of gum, a rusty razor blade, and a bag of white powder. There is also a dog running around the farm that looks vaguely farmiliar. As you come to you glance at your watch you notice that it is thursday at 800, ONE AND A HALF HOURS BEFORE YOUR BIG JOB INTERVIEW! You begin to panic but then relizing that you are just a 25 minute drive outside of town, and can still make it. Now if you just had a car. . .";
+say "You wake up in a grassy field with no memory of what happened last night. You search your pockets and find that you only have a stick of gum, a rusty razor blade, and a bag of white powder. There is also a dog running around the farm that looks vaguely familiar. As you come to you glance at your watch you notice that it is Thursday at 800 a.m, ONE AND A HALF HOURS BEFORE YOUR BIG JOB INTERVIEW! You begin to panic but then realize that you are just a 25-minute drive outside of town, and can still make it. Now if you just had a car. . .";
  now left hand status line is "Exits: [exit list]"; 
     now right hand status line is "[location]".
 To say exit list: 
@@ -17,7 +17,7 @@ To say exit list:
 
 Rusty razor blade is a thing. rusty razor blade is carried by the player.  the description is "A rusty razor blade"
 
-Stick of gum is a thing. stick of gum is carried by the player. the description is " A stick of juicy fruit gum"
+Stick of gum is a thing. stick of gum is carried by the player. the description is "A stick of juicy fruit gum"
 
 Pink speedo is a thing. it is carried by the player.  the description is "A tiny pink speedo adorned with sequence and glitter"
 
@@ -35,7 +35,7 @@ Tall grass is scenery in field. "You rustle through the tall grass and find a sm
 Apple tree is scenery in field. "An apple that is at least 40 feet tall and is beginning to flower"
 
 [barn]
-Barn is a room. Barn is north of Field. "A large red and white two story barn with piles of hay on the ground. There are also two black and white cows roaming around the barn. Hanging on the wall is a milking bucket and leaning on the wall next to it is a pitchfork. The barns looks if it hasnt been used in years. Back to the south is the field."
+Barn is a room. Barn is north of Field. "A large red and white two story barn with piles of hay on the ground. There are also two black and white cows roaming around the barn. Hanging on the wall is a milking bucket and leaning on the wall next to it is a pitchfork. The barns looks if it hasn't been used in years. Back to the south is the field."
 
 Piles of hay is scenery in the barn. "You rustle through the golden hay and get dust in your eyes and nose which makes you sneeze."
 
@@ -45,12 +45,12 @@ Bell is a thing in the barn. It is undescribed. the description is "A small bras
 
 Bells is a thing in the barn. It is undescribed. the description is "A small brass cowbells that read: Cow"
 
-Milking bucket is a thing in the barn. It is undescribed. the description is "A medium sized aluminaum bucked used to collect milk from the cows"
+Milking bucket is a thing in the barn. It is undescribed. the description is "A medium sized aluminum bucked used to collect milk from the cows"
 
 Pitchfork is a thing in the barn. it is undescribed. the description is "A metal and wood pitchfork used for moving hay around the barn"
 
 [shed]
-Shed is a room. shed is east of Field. "A medium sized metal shed made of couragated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field"
+Shed is a room. shed is east of Field. "A medium sized metal shed made of corrugated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field"
 
 Walls is scenery. walls is in shed. "The metal walls are coated in a thin layer of dust."
 
@@ -82,7 +82,7 @@ Cardoor is scenery in carport. "A dull red door with a low quality silver lock t
 Car is in carport. Car is a vehicle. car is locked. car is closed and openable. it is undescribed. "A dull red Camaro sport with two doors that is yout ticket off of this farm."
 
 	
-The metal door is a door. The metal door is scenery. The metal door is north of shed and south of Carport. The metal door is openable. The metal door is locked. "A white aluminaum garage door that is locked"
+The metal door is a door. The metal door is scenery. The metal door is north of shed and south of Carport. The metal door is openable. The metal door is locked. "A white aluminum garage door that is locked"
 
 
 [Metal door is a door.  Metal door is north of shed and south of Carport. Metal door is closed and openable. Metal door is locked. Metal door is undescribed. "A white aluminaum garage door that is locked"]
@@ -119,7 +119,7 @@ Collar is scenery. collar is on dog. collar is undescribed. "A blue collar with 
 
 The dog is scenery. The dog is in the field. The dog is portable. the dog is undescribed. "A medium sized sheep dog with a light blue collar around its neck"
 
-The description of the player is "You are only wearing a sparkly pink speedo and a watch and are otherwise bar"
+The description of the player is "You are only wearing a sparkly pink speedo and a watch and are otherwise bare"
 
 After entering Car:
 	say "You get in and breathe a sigh of releif as you start the car to begin your drive back to town. Your only problem now is what you're wearing, but you will worry about this later . . .";
