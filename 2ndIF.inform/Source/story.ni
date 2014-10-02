@@ -45,25 +45,33 @@ Bell is a thing in the barn. It is undescribed. the description is "A small bras
 
 Bells is a thing in the barn. It is undescribed. the description is "A small brass cowbells that read: Cow"
 
-Milking bucket is a thing in the barn. It is undescribed. the description is "A medium sized aluminaum bucked used to catch the milk from the cows"
+Milking bucket is a thing in the barn. It is undescribed. the description is "A medium sized aluminaum bucked used to collect milk from the cows"
 
 Pitchfork is a thing in the barn. it is undescribed. the description is "A metal and wood pitchfork used for moving hay around the barn"
 
 [shed]
-Shed is a room. shed is east of Field. "A medium sized metal shed made of couragated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. back to the east is the field"
+Shed is a room. shed is east of Field. "A medium sized metal shed made of couragated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field"
 
 Walls is scenery. walls is in shed. "The metal walls are coated in a thin layer of dust."
 
 Floor is scenery in shed. "A cement floor covered in an assortment of different small car parts. It is covered in a thin layer of dirt."
 
-Workbench is scenery in shed. "A wooden work bench wath a tool chest and a pile of cut wood on it."
+Barbed wire is a thing. it is in shed. it is undescribed. the description is "This just screams tetanus"
+
+Wooden fence is a thing. it is in shed. is is undescribed. the description of wood fence is "Sections from a white fence"
+
+Workbench is scenery in shed. "A wooden work bench with a tool chest and a pile of cut wood on it."
 
 Cut wood is a thing. it is in shed. it is undescribed. the description is "Wood that was cut to one day be used for something."
 
-tool chest is scenery in shed. it is a closed openable container. the description is "A rusty old tool chest"
+Tool chest is scenery in shed. it is a closed openable container. the description is "A rusty old tool chest"
 
 After opening tool chest:
 	say "You open the tool chest revealing a hammer, screwdriver, wrench, and a small box."
+	
+Hammer is a thing. hammer is in tool chest. is is undescribed. the description of the hammer is "A hammer used to hammer nails and sometimes fingers"
+
+Wrench is a thing. wrench is in tool chest. is is undescribed. the description of the wrench is "A metal wrench"
 	
 
 [carport]
@@ -92,7 +100,7 @@ Dirt is scenery. it is in cornfield. "Brown dirt that the corn is growing out of
 
 Soil is scenery. it is in cornfield. "Brown dirt that the corn is growing out of"
 
-Cornstalks is scenery in cornfield. "A green corn stalk that is just beginning to grow"
+Corn stalks is scenery in cornfield. "A green corn stalk that is just beginning to grow"
 
 Corn stalk is scenery. is is in cornfied. "A green corn stalk that is just beginning to grow"
 
