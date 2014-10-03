@@ -21,7 +21,7 @@ Stick of gum is a thing. stick of gum is carried by the player. the description 
 
 Pink speedo is a thing. it is carried by the player.  the description is "A tiny pink speedo adorned with sequence and glitter"
 
-Bag of white powder is a thing. bag of white powder is carried by the player.  the description is "A bag of what may or may not be drugs and possibly the reason you're lying in this field"
+Bag of white powder is a thing. bag of white powder is carried by the player.  the description is "A bag of what may or may not be drugs and possibly the reason you woke up here"
 
 Watch is a thing. watch is carried by the player. the description is "A small black wrist watch"
 
@@ -30,7 +30,7 @@ Field is a room.  "A large grassy field with a large apple tree in the center of
 
 Piece of paper is a thing. It is in the field. It is undescribed.  the description is "The paper reads: For a good time call 1-800-696-9911"
 
-Tall grass is scenery in field. "You rustle through the tall grass and find a small piece of crumpled paper" 
+Tall grass is scenery in field. "You rustle through the tall grass and find a small piece of crumpled paper with writing on it" 
 
 Apple tree is scenery in field. "An apple that is at least 40 feet tall and is beginning to flower"
 
@@ -47,14 +47,16 @@ Bells is a thing in the barn. It is undescribed. the description is "A small bra
 
 Milking bucket is a thing in the barn. It is undescribed. the description is "A medium sized aluminum bucked used to collect milk from the cows"
 
-Pitchfork is a thing in the barn. it is undescribed. the description is "A metal and wood pitchfork used for moving hay around the barn"
+Pitchfork is a thing in the barn. it is undescribed. the description is "A pitchfork with a wooden handle and a metal head used to move hay around"
+
+Grouns is scenery in barn. "The ground is covered in a thin layer of hay dust and dirt"
 
 [shed]
 Shed is a room. shed is east of Field. "A medium sized metal shed made of corrugated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field"
 
-Walls is scenery. walls is in shed. "The metal walls are coated in a thin layer of dust."
+Walls is scenery. walls is in shed. the description is "The metal walls are coated in a thin layer of dust."
 
-Floor is scenery in shed. "A cement floor covered in an assortment of different small car parts. It is covered in a thin layer of dirt."
+Floor is scenery in shed. "A cement floor covered in an assortment of different small car parts. All covered in a thin layer of dirt."
 
 Barbed wire is a thing. it is in shed. it is undescribed. the description is "This just screams tetanus"
 
@@ -72,14 +74,15 @@ After opening tool chest:
 Hammer is a thing. hammer is in tool chest. is is undescribed. the description of the hammer is "A hammer used to hammer nails and sometimes fingers"
 
 Wrench is a thing. wrench is in tool chest. is is undescribed. the description of the wrench is "A metal wrench"
-	
+
+Carparts is a thing. carparts is in shed. it is undescribed. the description is "Varios car parts from many different cars"
 
 [carport]
 Carport is a room. "In the middle of the room sits a dull red car. Everything in this room is covered in a thin layer of dust and dirt. Back to the south is the shed."
 
 Cardoor is scenery in carport. "A dull red door with a low quality silver lock that fits a flat key"
 
-Car is in carport. Car is a vehicle. car is locked. car is closed and openable. it is undescribed. "A dull red Camaro sport with two doors that is yout ticket off of this farm."
+The car is in carport. The car is a vehicle. The car is locked. The car is closed and openable. it is undescribed. "A dull red Camaro sport with two doors that is yout ticket off of this farm."
 
 	
 The metal door is a door. The metal door is scenery. The metal door is north of shed and south of Carport. The metal door is openable. The metal door is locked. "A white aluminum garage door that is locked"
@@ -88,7 +91,7 @@ The metal door is a door. The metal door is scenery. The metal door is north of 
 [Metal door is a door.  Metal door is north of shed and south of Carport. Metal door is closed and openable. Metal door is locked. Metal door is undescribed. "A white aluminaum garage door that is locked"]
 
 [corn field]
-Cornfield is a room.  CornField is south of Field. "A corn field filled with small foot tall stalks of corn sprouting out of the dark brown soil. In the center of the fields is a scare crow dressed in plaid shorts and shorts. Back to the north is the field"
+Cornfield is a room.  CornField is south of Field. "A corn field filled with small 1-foot tall stalks of corn sprouting out of the dark brown soil. In the center of the fields is a scare crow dressed in plaid shorts and shorts. Back to the north is the field"
 
 Scarecrow is a scenery in field. "A scarecrow made out of hay dressed in plaid clothes that is used to keep the crows out of the corn"
 
@@ -133,4 +136,14 @@ if the The Dog is visible, say "The dog is here";
 end if.
 
 understand "read" as examining.
-
+understand "large apple tree" as the apple tree.
+Understand "dark brown soil" or "brown soil" as dirt.
+understand "plaid shorts" or  "plaid shirt" as scarecrows clothes.
+understand "work bench" as workbench.
+understand "car key" as carkey.
+understand "screw driver" as screwdriver.
+understand "dull red car" or "red car" as car.
+understand "doors"  or "car doors" or "Car door" as cardoor.
+understand "tin sheets" or "corrugated tin sheets" as walls.
+understand "car parts" as carparts.
+understand "hay" as piles of hay.
