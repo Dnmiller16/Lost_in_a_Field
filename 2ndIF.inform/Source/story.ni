@@ -127,14 +127,14 @@ The description of the player is "You are only wearing a sparkly pink speedo and
 After entering Car:
 	say "You get in and breathe a sigh of releif as you start the car to begin your drive back to town. Your only problem now is what you're wearing, but you will worry about this later . . .";
 	end the story finally.
- 
+   
 Every turn: if the Dog is in a room (called the current space) begin;
 let next space be a random room that is not the current space;
 if the The Dog is visible, say "The Dog runs away";
 move the The Dog to next space;
 if the The Dog is visible, say "The dog is here";
 end if.
-
+ 
 understand "read" as examining.
 understand "large apple tree" as the apple tree.
 Understand "dark brown soil" or "brown soil" as dirt.
