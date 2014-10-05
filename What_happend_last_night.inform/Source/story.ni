@@ -29,10 +29,9 @@ Field is a room. the description is "A large grassy field with a large apple tre
 
 xxf is scenery in field. it is undescribed. the description is "A large grassy field with a large apple tree in the center of it and a large patch of tall grass next to you. You can just see the sun rising over the shed which is to the east.  To the north is the barn and to the south is a corn field."
 
+A piece of paper is a thing. It is in the tall grass. [It is undescribed.] the description is "The paper reads: For a good time call 1-800-696-9911"
 
-Piece of paper is a thing. It is in the field. It is undescribed. the description is "The paper reads: For a good time call 1-800-696-9911"
-
-Tall grass is scenery in field. the description is "You rustle through the tall grass and find a small piece of crumpled paper with writing on it" 
+the tall grass is scenery in field. the description is "A patch of tall grass" 
 
 Apple tree is scenery in field. the description is "An apple tree that is at least 40 feet tall and is beginning to flower"
 
@@ -43,11 +42,9 @@ xxb is scenery in barn. it is undescribed. the description is "A large red and w
 
 Piles of hay is scenery in the barn. the description is "You rustle through the golden hay and get dust in your eyes and nose which makes you sneeze."
 
-Two cows is scenery in barn. It is undescribed. the description is "Two female black and white cows, each with a cow bell around its neck"
+Two cows is scenery in barn. It is undescribed. the description is "Two female black and white cows if bell is in cow say each with a cow bell around its neck. "
 
-Bell is a thing in the barn. It is undescribed. the description is "A small brass cowbells that read: Cow"
-
-Bells is a thing in the barn. It is undescribed. the description is "A small brass cowbells that read: Cow"
+Bell is a thing. it is in Two cows. It is undescribed. the description is "A small brass cowbells that read: Cow"
 
 Milking bucket is a thing in the barn. It is undescribed. the description is "A medium sized aluminum bucket used to collect milk from the cows"
 
@@ -58,7 +55,7 @@ Grouns is scenery in barn. the description is "The ground is covered in a thin l
 [shed]
 Shed is a room. shed is east of Field. the description is "A medium sized metal shed made of corrugated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field"
 
-xxs is a thing in shed. it is undescribed. the description is "A medium sized metal shed made of corrugated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field"
+xxs is scenery in shed. it is undescribed. the description is "A medium sized metal shed made of corrugated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field"
 
 Walls is scenery. walls is in shed. the description is "The metal walls are coated in a thin layer of dust."
 
@@ -93,15 +90,15 @@ Cardoor is scenery in carport.  the description is "A dull red door with a low q
 The car is in carport. The car is a vehicle. The car is locked. The car is closed and openable. it is undescribed. the description is  "A dull red Camaro sport with two doors that is yout ticket off of this farm."
 
 [fixed by ms kiang]
-The metal door is a door. The metal door is scenery. The metal door is north of shed and south of Carport. The metal door is openable. The metal door is locked. the description is "A white aluminum garage door that is locked"
+The metal door is a door. The metal door is scenery. The metal door is north of shed and south of Carport. The metal door is openable. The metal door is locked. the description is "A white aluminum garage door [if metal door is locked]that is locked[end if]"
 
 
 [corn field]
 Cornfield is a room.  CornField is south of Field. the description is "A corn field filled with small one foot tall stalks of corn sprouting out of the dark brown soil. In the center of the fields is a scare crow dressed in plaid shorts and shorts. Back to the north is the field"
 
-xxcf is scenery in field. it is undescribed. the description is "A corn field filled with small one foot tall stalks of corn sprouting out of the dark brown soil. In the center of the fields is a scare crow dressed in plaid shorts and shorts. Back to the north is the field."
+xxcf is scenery. it is in cornfield. it is undescribed. the description is "A corn field filled with small one foot tall stalks of corn sprouting out of the dark brown soil. In the center of the fields is a scare crow dressed in plaid shorts and shorts. Back to the north is the field."
 
-Scarecrow is a scenery in field.  the description is "A scarecrow made out of hay dressed in plaid clothes that is used to keep the crows out of the corn"
+Scarecrow is scenery in field.  the description is "A scarecrow made out of hay dressed in plaid clothes that is used to keep the crows out of the corn"
 
 Scarecrows clothes is a thing. it is in cornfield. it is undescribed. the description is "A plaid shirt and shorts used to dress the scarecrow"
 
@@ -118,11 +115,11 @@ Screwdriver is a thing. it is in tool chest. Screwdriver unlocks car.  The descr
 
 the small box is a container. it is a closed openable container. the small box is in tool chest. the description is "A small blue cardboard box"
 
-Key is a thing. Key unlocks metal door. key is worn by the dog. Key is undescribed. the description is "A silver key that unlocks something"
+a key is a thing. a Key unlocks metal door. a key is on the collar. [Key is undescribed.] the description is "A silver key that unlocks something"
 
-Collar is a thing. Collar is worn by the dog. collar is undescribed. the description is "A blue collar with a key hanging from it"
+the collar is a thing. the collar is on the dog. the collar is undescribed. the description is "A bright blue collar"
 
-The dog is an animal. The dog is in the field. [The dog is portable]. the dog is undescribed. the description is "A medium sized sheep dog with a light blue collar around its neck"
+The dog is scenery. The dog is in the field. The dog is portable. the dog is undescribed. the description is "A medium sized sheep dog with a light blue collar around its neck"
 
 The description of the player is "You are only wearing a sparkly pink speedo and a watch and are otherwise bare"
 
@@ -138,7 +135,7 @@ if the The Dog is visible, say "The dog is here";
 end if.
  
 [research + inform wiki]
-[some added from beta feedback]
+[some added some from beta feedback]
 understand "large apple tree" as the apple tree.
 Understand "dark brown soil" or "brown soil" or "soil"as dirt.
 understand "plaid shorts" or  "plaid shirt" as scarecrows clothes.
@@ -155,9 +152,11 @@ understand "car" or "dull red car" or "red car" as the car.
 understand "corn stalk" or "corn" or "corn stalks" as corn stalk.
 understand "field" as xxf.
 understand "shed" as xxf.
-understand "corn field" as xxcf.
+understand "corn field" or "Cornfield" as xxcf.
 understand "carport" or "car port" as xxcp.
 understand "barn" as xxb.
+understand "bells" as bell.
+understand "blue collar" or "bright blue collar" as the collar.
 
 After reading a command:
 if the player's command includes "feed dog" begin;
@@ -186,6 +185,51 @@ end if;
 After reading a command:
 if the player's command includes "read crumpled piece paper" begin;
 say "The paper reads: For a good time call 1-800-696-9911";
+reject the player's command;
+end if;
+
+[easter eggs]
+
+After reading a command:
+if the player's command includes "smell field" begin;
+say "SMELLS LIKE COCAINE!";
+reject the player's command;
+end if;
+
+After reading a command:
+if the player's command includes "smell corn field" begin;
+say "SMELLS LIKE COCAINE!";
+reject the player's command;
+end if;
+
+After reading a command:
+if the player's command includes "smell cornfield" begin;
+say "SMELLS LIKE COCAINE!";
+reject the player's command;
+end if;
+
+After reading a command:
+if the player's command includes "smell barn" begin;
+say "SMELLS LIKE COCAINE!";
+reject the player's command;
+end if;
+
+After reading a command:
+if the player's command includes "smell carport" begin;
+say "SMELLS LIKE COCAINE!";
+reject the player's command;
+end if;
+
+After reading a command:
+if the player's command includes "smell car port" begin;
+say "SMELLS LIKE COCAINE!";
+reject the player's command;
+end if;
+
+
+After reading a command:
+if the player's command includes "smell shed" begin;
+say "SMELLS LIKE COCAINE!";
 reject the player's command;
 end if;
 

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x29e090" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x2cc8e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x29e150" />
-  <item nodeId="node-0x29e090">
+  <activeNode nodeId="node-0xbd5d4d0" />
+  <item nodeId="node-0x2cc8e0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,7 +11,7 @@ You wake up in a grassy field with no memory of what happened last night. You se
 
 What happened last night?
 An Interactive Fiction by Dakota Miller
-Release 1 / Serial number 141003 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141004 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Field
 A large grassy field with a large apple tree in the center of it and a large patch of tall grass next to you. You can just see the sun rising over the shed which is to the east.  To the north is the barn and to the south is a corn field.
@@ -19,349 +19,28 @@ A large grassy field with a large apple tree in the center of it and a large pat
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="11">NO</temporary>
+    <temporary score="45">NO</temporary>
     <children>
-      <child nodeId="node-0x20f1d0" />
-      <child nodeId="node-0x20e360" />
-      <child nodeId="node-0x20e750" />
-      <child nodeId="node-0x8edd3a0" />
-      <child nodeId="node-0x20f940" />
-      <child nodeId="node-0x20e520" />
-      <child nodeId="node-0x29e1f0" />
-      <child nodeId="node-0x20f400" />
-      <child nodeId="node-0x210980" />
-      <child nodeId="node-0x210f60" />
-      <child nodeId="node-0x20e130" />
-      <child nodeId="node-0x29e100" />
-      <child nodeId="node-0x20e670" />
-      <child nodeId="node-0x20ef30" />
-      <child nodeId="node-0x29e150" />
-      <child nodeId="node-0x20e0c0" />
-      <child nodeId="node-0x20f0f0" />
+      <child nodeId="node-0x2cc980" />
+      <child nodeId="node-0x2cd720" />
+      <child nodeId="node-0x2cfb80" />
+      <child nodeId="node-0x2cf1e0" />
+      <child nodeId="node-0x2cd560" />
+      <child nodeId="node-0x2cfaa0" />
+      <child nodeId="node-0x2cccd0" />
+      <child nodeId="node-0xceb4cb0" />
+      <child nodeId="node-0xbd8c930" />
+      <child nodeId="node-0x2cfdb0" />
+      <child nodeId="node-0x2cf3a0" />
+      <child nodeId="node-0x2ceca0" />
+      <child nodeId="node-0x2cdd50" />
+      <child nodeId="node-0x2ceed0" />
+      <child nodeId="node-0x2cd790" />
+      <child nodeId="node-0xbdf53e0" />
+      <child nodeId="node-0x2cd6b0" />
     </children>
   </item>
-  <item nodeId="node-0x20f0f0">
-    <command xml:space="preserve">enter car</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f080" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f080">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Shed
-A medium sized metal shed made of couragated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. back th the east is the field
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="132">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f010" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f010">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="131">YES</temporary>
-  </item>
-  <item nodeId="node-0x20e0c0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Barn
-A large red and white 2 story barn with piles of hay on the ground. There are also two black and white cows roaming around the barn. Hanging on the wall is a milking bucket and next to it also leaning on the wall is a pitchfork. The barns looks if it hasnt been used in years. Back to the south is the field.
-
-You can see Bell, Bells, Milking bucket and Pitchfork here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="99">YES</temporary>
-  </item>
-  <item nodeId="node-0x29e150">
-    <command xml:space="preserve">read paper</command>
-    <result xml:space="preserve">You must supply a noun.
-
-The Dog runs away
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x29e1a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x29e1a0">
-    <command xml:space="preserve">read paper</command>
-    <result xml:space="preserve">You must supply a noun.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="59">YES</temporary>
-  </item>
-  <item nodeId="node-0x20ef30">
-    <command xml:space="preserve">score</command>
-    <result xml:space="preserve">There is no score in this story.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20eec0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20eec0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ee50" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ee50">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ede0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ede0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ed70" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ed70">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ed00" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ed00">
-    <command xml:space="preserve">sadksad&apos;a</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ec90" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ec90">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ec20" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ec20">
-    <command xml:space="preserve">sad</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ebb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ebb0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-The Dog runs away
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20eb40" />
-    </children>
-  </item>
-  <item nodeId="node-0x20eb40">
-    <command xml:space="preserve">ad</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ead0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ead0">
-    <command xml:space="preserve">sd</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20ea60" />
-    </children>
-  </item>
-  <item nodeId="node-0x20ea60">
-    <command xml:space="preserve">sas</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e9f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e9f0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e980" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e980">
-    <command xml:space="preserve">ds</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e910" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e910">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e8a0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e830" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e830">
-    <command xml:space="preserve">take key</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e7c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e7c0">
-    <command xml:space="preserve">dog</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="108">YES</temporary>
-  </item>
-  <item nodeId="node-0x20e670">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  Rusty razor blade
-  Stick of gum
-  Pink speedo
-  Bag of white powder
-  Watch
-
-The Dog runs away
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e600" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e600">
-    <command xml:space="preserve">take key</command>
-    <result xml:space="preserve">You already have that.
-
-The dog is here
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e590" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e590">
-    <command xml:space="preserve">i</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="34">YES</temporary>
-  </item>
-  <item nodeId="node-0x29e100">
+  <item nodeId="node-0x2cd6b0">
     <command xml:space="preserve">take eky</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -370,17 +49,179 @@ The dog is here
     <changed>NO</changed>
     <temporary score="30">YES</temporary>
   </item>
-  <item nodeId="node-0x20e130">
-    <command xml:space="preserve">x gum</command>
-    <result xml:space="preserve"> A stick of juicy fruit gum
+  <item nodeId="node-0xbdf53e0">
+    <command xml:space="preserve">x gras</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xce9d760" />
+    </children>
+  </item>
+  <item nodeId="node-0xce9d760">
+    <command xml:space="preserve">x grass</command>
+    <result xml:space="preserve">A patch of tall grass
+
+In the tall grass is a piece of paper.
 
 The Dog runs away
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="56">YES</temporary>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x7141e10" />
+    </children>
   </item>
-  <item nodeId="node-0x210f60">
+  <item nodeId="node-0x7141e10">
+    <command xml:space="preserve">take paper</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x145f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x145f30">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">The paper reads: For a good time call 1-800-696-9911
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd44010" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd44010">
+    <command xml:space="preserve">x tall grass</command>
+    <result xml:space="preserve">A patch of tall grass
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x712dbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x712dbc0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x710b6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x710b6a0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xce7dbe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xce7dbe0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd92640" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd92640">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x7124f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x7124f20">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xceb5110" />
+    </children>
+  </item>
+  <item nodeId="node-0xceb5110">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x71d8bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x71d8bf0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xce9be00" />
+    </children>
+  </item>
+  <item nodeId="node-0xce9be00">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xbdb6e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xbdb6e50">
+    <command xml:space="preserve">x collar</command>
+    <result xml:space="preserve">A bright blue collar
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x2cd790">
     <command xml:space="preserve">open car</command>
     <result xml:space="preserve">You open Car.
 
@@ -390,10 +231,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210e30" />
+      <child nodeId="node-0x2cd800" />
     </children>
   </item>
-  <item nodeId="node-0x210e30">
+  <item nodeId="node-0x2cd800">
     <command xml:space="preserve">get into car</command>
     <result xml:space="preserve">you breathe a sigh of releif
 &gt;</result>
@@ -401,10 +242,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x29e360" />
+      <child nodeId="node-0x2cd870" />
     </children>
   </item>
-  <item nodeId="node-0x29e360">
+  <item nodeId="node-0x2cd870">
     <command xml:space="preserve">start car</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -413,10 +254,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210dc0" />
+      <child nodeId="node-0x2cd290" />
     </children>
   </item>
-  <item nodeId="node-0x210dc0">
+  <item nodeId="node-0x2cd290">
     <command xml:space="preserve">drive to shed</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -425,10 +266,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210d50" />
+      <child nodeId="node-0x2cd300" />
     </children>
   </item>
-  <item nodeId="node-0x210d50">
+  <item nodeId="node-0x2cd300">
     <command xml:space="preserve">drive</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -437,10 +278,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210ce0" />
+      <child nodeId="node-0x2cd370" />
     </children>
   </item>
-  <item nodeId="node-0x210ce0">
+  <item nodeId="node-0x2cd370">
     <command xml:space="preserve">close door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -449,10 +290,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210c70" />
+      <child nodeId="node-0x2cdb20" />
     </children>
   </item>
-  <item nodeId="node-0x210c70">
+  <item nodeId="node-0x2cdb20">
     <command xml:space="preserve">close car</command>
     <result xml:space="preserve">You close Car.
 
@@ -463,10 +304,10 @@ It is now pitch dark in here!
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210c00" />
+      <child nodeId="node-0x2cdb90" />
     </children>
   </item>
-  <item nodeId="node-0x210c00">
+  <item nodeId="node-0x2cdb90">
     <command xml:space="preserve">ride car</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -475,10 +316,10 @@ It is now pitch dark in here!
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210b90" />
+      <child nodeId="node-0x2cdc00" />
     </children>
   </item>
-  <item nodeId="node-0x210b90">
+  <item nodeId="node-0x2cdc00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Darkness
@@ -489,10 +330,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210ee0" />
+      <child nodeId="node-0x2cdc70" />
     </children>
   </item>
-  <item nodeId="node-0x210ee0">
+  <item nodeId="node-0x2cdc70">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -501,10 +342,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
     <children>
-      <child nodeId="node-0x210e80" />
+      <child nodeId="node-0x2cdce0" />
     </children>
   </item>
-  <item nodeId="node-0x210e80">
+  <item nodeId="node-0x2cdce0">
     <command xml:space="preserve">open car</command>
     <result xml:space="preserve">You open Car.
 
@@ -516,7 +357,91 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="122">YES</temporary>
   </item>
-  <item nodeId="node-0x210980">
+  <item nodeId="node-0x2ceed0">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">The paper reads: For a good time call 1-800-6969-911
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cefb0" />
+      <child nodeId="node-0x2cef40" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cef40">
+    <command xml:space="preserve">read paper</command>
+    <result xml:space="preserve">You must supply a noun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+  </item>
+  <item nodeId="node-0x2cefb0">
+    <command xml:space="preserve">x piece of paper</command>
+    <result xml:space="preserve">You see nothing special about Piece of paper.
+
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf020" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf020">
+    <command xml:space="preserve">x gum</command>
+    <result xml:space="preserve">You see nothing special about Stick of gum.
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf090" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf090">
+    <command xml:space="preserve">x stick of gum</command>
+    <result xml:space="preserve">You see nothing special about Stick of gum.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf100" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf100">
+    <command xml:space="preserve">x pink speedo</command>
+    <result xml:space="preserve">You see nothing special about Pink speedo.
+
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf170" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf170">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You are only wearing a sparkly pink speedo and a watch and are otherwise naked
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+  </item>
+  <item nodeId="node-0x2cdd50">
     <command xml:space="preserve">0</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -525,10 +450,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210910" />
+      <child nodeId="node-0x2cddc0" />
     </children>
   </item>
-  <item nodeId="node-0x210910">
+  <item nodeId="node-0x2cddc0">
     <command xml:space="preserve">unlock car</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -537,10 +462,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x2108a0" />
+      <child nodeId="node-0x2cde30" />
     </children>
   </item>
-  <item nodeId="node-0x2108a0">
+  <item nodeId="node-0x2cde30">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -549,10 +474,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210830" />
+      <child nodeId="node-0x2cdea0" />
     </children>
   </item>
-  <item nodeId="node-0x210830">
+  <item nodeId="node-0x2cdea0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -561,10 +486,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x2107c0" />
+      <child nodeId="node-0x2cdf10" />
     </children>
   </item>
-  <item nodeId="node-0x2107c0">
+  <item nodeId="node-0x2cdf10">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -573,10 +498,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210750" />
+      <child nodeId="node-0x2cdf80" />
     </children>
   </item>
-  <item nodeId="node-0x210750">
+  <item nodeId="node-0x2cdf80">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -585,10 +510,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x2106e0" />
+      <child nodeId="node-0x2cdff0" />
     </children>
   </item>
-  <item nodeId="node-0x2106e0">
+  <item nodeId="node-0x2cdff0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -597,10 +522,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210670" />
+      <child nodeId="node-0x2ce060" />
     </children>
   </item>
-  <item nodeId="node-0x210670">
+  <item nodeId="node-0x2ce060">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -609,10 +534,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210600" />
+      <child nodeId="node-0x2ce0d0" />
     </children>
   </item>
-  <item nodeId="node-0x210600">
+  <item nodeId="node-0x2ce0d0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -621,10 +546,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210590" />
+      <child nodeId="node-0x2ce140" />
     </children>
   </item>
-  <item nodeId="node-0x210590">
+  <item nodeId="node-0x2ce140">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -633,10 +558,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210520" />
+      <child nodeId="node-0x2ce1b0" />
     </children>
   </item>
-  <item nodeId="node-0x210520">
+  <item nodeId="node-0x2ce1b0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -645,10 +570,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210ac0" />
+      <child nodeId="node-0x2ce220" />
     </children>
   </item>
-  <item nodeId="node-0x210ac0">
+  <item nodeId="node-0x2ce220">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -657,10 +582,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210a10" />
+      <child nodeId="node-0x2cd8e0" />
     </children>
   </item>
-  <item nodeId="node-0x210a10">
+  <item nodeId="node-0x2cd8e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -669,10 +594,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210a60" />
+      <child nodeId="node-0x2cd950" />
     </children>
   </item>
-  <item nodeId="node-0x210a60">
+  <item nodeId="node-0x2cd950">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -681,10 +606,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210270" />
+      <child nodeId="node-0x2cd9c0" />
     </children>
   </item>
-  <item nodeId="node-0x210270">
+  <item nodeId="node-0x2cd9c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -693,10 +618,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210200" />
+      <child nodeId="node-0x2cda30" />
     </children>
   </item>
-  <item nodeId="node-0x210200">
+  <item nodeId="node-0x2cda30">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -705,10 +630,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210190" />
+      <child nodeId="node-0x2cdaa0" />
     </children>
   </item>
-  <item nodeId="node-0x210190">
+  <item nodeId="node-0x2cdaa0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -717,10 +642,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210120" />
+      <child nodeId="node-0x2ce290" />
     </children>
   </item>
-  <item nodeId="node-0x210120">
+  <item nodeId="node-0x2ce290">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -729,10 +654,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x2100b0" />
+      <child nodeId="node-0x2ce300" />
     </children>
   </item>
-  <item nodeId="node-0x2100b0">
+  <item nodeId="node-0x2ce300">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -741,10 +666,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210040" />
+      <child nodeId="node-0x2ce370" />
     </children>
   </item>
-  <item nodeId="node-0x210040">
+  <item nodeId="node-0x2ce370">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -753,10 +678,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20ffd0" />
+      <child nodeId="node-0x2ce3e0" />
     </children>
   </item>
-  <item nodeId="node-0x20ffd0">
+  <item nodeId="node-0x2ce3e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -765,10 +690,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20ff60" />
+      <child nodeId="node-0x2ce450" />
     </children>
   </item>
-  <item nodeId="node-0x20ff60">
+  <item nodeId="node-0x2ce450">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -777,10 +702,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fef0" />
+      <child nodeId="node-0x2ce4c0" />
     </children>
   </item>
-  <item nodeId="node-0x20fef0">
+  <item nodeId="node-0x2ce4c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -789,10 +714,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fe80" />
+      <child nodeId="node-0x2ce530" />
     </children>
   </item>
-  <item nodeId="node-0x20fe80">
+  <item nodeId="node-0x2ce530">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -801,10 +726,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fe10" />
+      <child nodeId="node-0x2ce5a0" />
     </children>
   </item>
-  <item nodeId="node-0x20fe10">
+  <item nodeId="node-0x2ce5a0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -813,10 +738,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fda0" />
+      <child nodeId="node-0x2ce610" />
     </children>
   </item>
-  <item nodeId="node-0x20fda0">
+  <item nodeId="node-0x2ce610">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -825,10 +750,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fd30" />
+      <child nodeId="node-0x2ce680" />
     </children>
   </item>
-  <item nodeId="node-0x20fd30">
+  <item nodeId="node-0x2ce680">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -837,10 +762,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fcc0" />
+      <child nodeId="node-0x2ce6f0" />
     </children>
   </item>
-  <item nodeId="node-0x20fcc0">
+  <item nodeId="node-0x2ce6f0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -849,10 +774,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fc50" />
+      <child nodeId="node-0x2ce760" />
     </children>
   </item>
-  <item nodeId="node-0x20fc50">
+  <item nodeId="node-0x2ce760">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -861,10 +786,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fbe0" />
+      <child nodeId="node-0x2ce7d0" />
     </children>
   </item>
-  <item nodeId="node-0x20fbe0">
+  <item nodeId="node-0x2ce7d0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -873,10 +798,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fb70" />
+      <child nodeId="node-0x2ce840" />
     </children>
   </item>
-  <item nodeId="node-0x20fb70">
+  <item nodeId="node-0x2ce840">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -885,10 +810,10 @@ A medium sized metal shed made of couragated tin plates. There are many tools sc
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x2102c0" />
+      <child nodeId="node-0x2ce8b0" />
     </children>
   </item>
-  <item nodeId="node-0x2102c0">
+  <item nodeId="node-0x2ce8b0">
     <command xml:space="preserve">take dog</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -898,10 +823,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210330" />
+      <child nodeId="node-0x2ce920" />
     </children>
   </item>
-  <item nodeId="node-0x210330">
+  <item nodeId="node-0x2ce920">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Barn
@@ -912,10 +837,10 @@ A large red and white two story barn with piles of hay on the ground. There are 
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x2103a0" />
+      <child nodeId="node-0x2ce990" />
     </children>
   </item>
-  <item nodeId="node-0x2103a0">
+  <item nodeId="node-0x2ce990">
     <command xml:space="preserve">rules on</command>
     <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
 
@@ -924,10 +849,10 @@ A large red and white two story barn with piles of hay on the ground. There are 
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210410" />
+      <child nodeId="node-0x2cea00" />
     </children>
   </item>
-  <item nodeId="node-0x210410">
+  <item nodeId="node-0x2cea00">
     <command xml:space="preserve">actions on</command>
     <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
 Actions listing on.
@@ -937,10 +862,10 @@ Actions listing on.
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x210480" />
+      <child nodeId="node-0x2cea70" />
     </children>
   </item>
-  <item nodeId="node-0x210480">
+  <item nodeId="node-0x2cea70">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
 [Rule &quot;standard set going variables rule&quot; applies.]
@@ -970,10 +895,10 @@ You can&apos;t go that way.
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fb00" />
+      <child nodeId="node-0x2ceae0" />
     </children>
   </item>
-  <item nodeId="node-0x20fb00">
+  <item nodeId="node-0x2ceae0">
     <command xml:space="preserve">x tree</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -982,10 +907,10 @@ You can&apos;t go that way.
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fa90" />
+      <child nodeId="node-0x2ceb50" />
     </children>
   </item>
-  <item nodeId="node-0x20fa90">
+  <item nodeId="node-0x2ceb50">
     <command xml:space="preserve">x apple tree</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -994,10 +919,10 @@ You can&apos;t go that way.
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20fa20" />
+      <child nodeId="node-0x2cebc0" />
     </children>
   </item>
-  <item nodeId="node-0x20fa20">
+  <item nodeId="node-0x2cebc0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
 [Rule &quot;standard set going variables rule&quot; applies.]
@@ -1094,16 +1019,16 @@ A large grassy field with a large apple tree in the center of it and a large pat
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x20f9b0" />
+      <child nodeId="node-0x2cec30" />
     </children>
   </item>
-  <item nodeId="node-0x20f9b0">
+  <item nodeId="node-0x2cec30">
     <command xml:space="preserve">x apple tree</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="62">YES</temporary>
   </item>
-  <item nodeId="node-0x20f400">
+  <item nodeId="node-0x2ceca0">
     <command xml:space="preserve">start car</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1112,11 +1037,11 @@ A large grassy field with a large apple tree in the center of it and a large pat
     <changed>YES</changed>
     <temporary score="50">YES</temporary>
     <children>
-      <child nodeId="node-0x20f320" />
-      <child nodeId="node-0x20f390" />
+      <child nodeId="node-0x2ced80" />
+      <child nodeId="node-0x2ced10" />
     </children>
   </item>
-  <item nodeId="node-0x20f390">
+  <item nodeId="node-0x2ced10">
     <command xml:space="preserve">take car</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1125,7 +1050,7 @@ A large grassy field with a large apple tree in the center of it and a large pat
     <changed>YES</changed>
     <temporary score="43">YES</temporary>
   </item>
-  <item nodeId="node-0x20f320">
+  <item nodeId="node-0x2ced80">
     <command xml:space="preserve">start car</command>
     <result xml:space="preserve">You then turn the screwdriver in the igntition, praying that it will work. After some clicking you hear the car engine roar to life and you breathe a sigh of releif knowing that you can finally get off of this farm. You will have to worry about your less than professional attire when you get to the interview.
 
@@ -1134,10 +1059,10 @@ A large grassy field with a large apple tree in the center of it and a large pat
     <changed>NO</changed>
     <temporary score="50">YES</temporary>
     <children>
-      <child nodeId="node-0x20f2b0" />
+      <child nodeId="node-0x2cedf0" />
     </children>
   </item>
-  <item nodeId="node-0x20f2b0">
+  <item nodeId="node-0x2cedf0">
     <command xml:space="preserve">take kay</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1146,10 +1071,10 @@ A large grassy field with a large apple tree in the center of it and a large pat
     <changed>YES</changed>
     <temporary score="50">YES</temporary>
     <children>
-      <child nodeId="node-0x20f240" />
+      <child nodeId="node-0x2cee60" />
     </children>
   </item>
-  <item nodeId="node-0x20f240">
+  <item nodeId="node-0x2cee60">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">
 
@@ -1164,91 +1089,498 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
   </item>
-  <item nodeId="node-0x29e1f0">
-    <command xml:space="preserve">x paper</command>
-    <result xml:space="preserve">The paper reads: For a good time call 1-800-6969-911
+  <item nodeId="node-0x2cf3a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+A medium sized metal shed made of corrugated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf560" />
+      <child nodeId="node-0x2cf410" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf410">
+    <command xml:space="preserve">open tool box</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open Tool chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf480" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf480">
+    <command xml:space="preserve">open tool chest</command>
+    <result xml:space="preserve">You open the tool chest revealing a hammer, screwdriver, wrench, and a small box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf4f0">
+    <command xml:space="preserve">open small box</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+  </item>
+  <item nodeId="node-0x2cf560">
+    <command xml:space="preserve">open tool chest</command>
+    <result xml:space="preserve">You open the tool chest revealing a hammer, screwdriver, wrench, and a small box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf5d0">
+    <command xml:space="preserve">open small box</command>
+    <result xml:space="preserve">You open the small box, revealing a carkey.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf640" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf640">
+    <command xml:space="preserve">take car key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf6b0">
+    <command xml:space="preserve">take carkey</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf720" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf720">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the metal door)
+It seems to be locked.
+
+The dog is here
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf790" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf790">
+    <command xml:space="preserve">open metal door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf800" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf800">
+    <command xml:space="preserve">unlock metal door</command>
+    <result xml:space="preserve">What do you want to unlock the metal door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cf870" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cf870">
+    <command xml:space="preserve">key</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+  </item>
+  <item nodeId="node-0x2cfdb0">
+    <command xml:space="preserve">please</command>
+    <result xml:space="preserve">(There is no need to say please.)
+I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0xbd8c930">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0xbde7750" />
+    </children>
+  </item>
+  <item nodeId="node-0xbde7750">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+A medium sized metal shed made of corrugated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd52790" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd52790">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the metal door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd5d4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd5d4d0">
+    <command xml:space="preserve">key</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+  </item>
+  <item nodeId="node-0xceb4cb0">
+    <command xml:space="preserve">x bright blue collar</command>
+    <result xml:space="preserve">A bright blue collar
+
+On the collar is Key.
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x71c8d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x71c8d70">
+    <command xml:space="preserve">x blue collar</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+  </item>
+  <item nodeId="node-0x2cccd0">
+    <command xml:space="preserve">score</command>
+    <result xml:space="preserve">There is no score in this story.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ccd20" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ccd20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ccd70" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ccd70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ccde0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ccde0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cce50" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cce50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ccf80" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ccf80">
+    <command xml:space="preserve">sadksad&apos;a</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ccc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ccc70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ccff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ccff0">
+    <command xml:space="preserve">sad</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cd060" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cd060">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 The Dog runs away
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="62">YES</temporary>
+    <temporary score="109">YES</temporary>
     <children>
-      <child nodeId="node-0x29e2d0" />
-      <child nodeId="node-0x29e260" />
+      <child nodeId="node-0x2cd0d0" />
     </children>
   </item>
-  <item nodeId="node-0x29e260">
-    <command xml:space="preserve">read paper</command>
-    <result xml:space="preserve">You must supply a noun.
+  <item nodeId="node-0x2cd0d0">
+    <command xml:space="preserve">ad</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cd140" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cd140">
+    <command xml:space="preserve">sd</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cd1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cd1b0">
+    <command xml:space="preserve">sas</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cd220" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cd220">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ccec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ccec0">
+    <command xml:space="preserve">ds</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2ccf10" />
+    </children>
+  </item>
+  <item nodeId="node-0x2ccf10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cd410" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cd410">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cd480" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cd480">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cd4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cd4f0">
+    <command xml:space="preserve">dog</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="108">YES</temporary>
+  </item>
+  <item nodeId="node-0x2cfaa0">
+    <command xml:space="preserve">get into car</command>
+    <result xml:space="preserve">you get into the car
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cfb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cfb10">
+    <command xml:space="preserve">start car</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="61">YES</temporary>
+    <temporary score="41">YES</temporary>
   </item>
-  <item nodeId="node-0x29e2d0">
-    <command xml:space="preserve">x piece of paper</command>
-    <result xml:space="preserve">You see nothing special about Piece of paper.
-
-The dog is here
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="56">YES</temporary>
-    <children>
-      <child nodeId="node-0x2110c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2110c0">
-    <command xml:space="preserve">x gum</command>
-    <result xml:space="preserve">You see nothing special about Stick of gum.
+  <item nodeId="node-0x2cd560">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Rusty razor blade
+  Stick of gum
+  Pink speedo
+  Bag of white powder
+  Watch
 
 The Dog runs away
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="56">YES</temporary>
+    <temporary score="35">YES</temporary>
     <children>
-      <child nodeId="node-0x211070" />
+      <child nodeId="node-0x2cd5d0" />
     </children>
   </item>
-  <item nodeId="node-0x211070">
-    <command xml:space="preserve">x stick of gum</command>
-    <result xml:space="preserve">You see nothing special about Stick of gum.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="56">YES</temporary>
-    <children>
-      <child nodeId="node-0x211020" />
-    </children>
-  </item>
-  <item nodeId="node-0x211020">
-    <command xml:space="preserve">x pink speedo</command>
-    <result xml:space="preserve">You see nothing special about Pink speedo.
+  <item nodeId="node-0x2cd5d0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You already have that.
 
 The dog is here
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="56">YES</temporary>
+    <temporary score="35">YES</temporary>
     <children>
-      <child nodeId="node-0x210fd0" />
+      <child nodeId="node-0x2cd640" />
     </children>
   </item>
-  <item nodeId="node-0x210fd0">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You are only wearing a sparkly pink speedo and a watch and are otherwise naked
-
-The Dog runs away
-&gt;</result>
+  <item nodeId="node-0x2cd640">
+    <command xml:space="preserve">i</command>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="55">YES</temporary>
+    <temporary score="34">YES</temporary>
   </item>
-  <item nodeId="node-0x20e520">
+  <item nodeId="node-0x2cf1e0">
     <command xml:space="preserve">x dog</command>
     <result xml:space="preserve">A medium sized sheep dog with a light blue collar around its neck
 
@@ -1258,10 +1590,10 @@ The Dog runs away
     <changed>NO</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x20e4b0" />
+      <child nodeId="node-0x2cf250" />
     </children>
   </item>
-  <item nodeId="node-0x20e4b0">
+  <item nodeId="node-0x2cf250">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Shed
@@ -1273,10 +1605,10 @@ The dog is here
     <changed>YES</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x20e440" />
+      <child nodeId="node-0x2cf2c0" />
     </children>
   </item>
-  <item nodeId="node-0x20e440">
+  <item nodeId="node-0x2cf2c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Field
@@ -1287,10 +1619,10 @@ A large grassy field with a large apple tree in the center of it and a large pat
     <changed>YES</changed>
     <temporary score="108">YES</temporary>
     <children>
-      <child nodeId="node-0x20e3d0" />
+      <child nodeId="node-0x2cf330" />
     </children>
   </item>
-  <item nodeId="node-0x20e3d0">
+  <item nodeId="node-0x2cf330">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Barn
@@ -1301,212 +1633,7 @@ A large red and white 2 story barn with piles of hay on the ground. There are al
     <changed>YES</changed>
     <temporary score="107">YES</temporary>
   </item>
-  <item nodeId="node-0x20f940">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Shed
-A medium sized metal shed made of couragated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="74">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f780" />
-      <child nodeId="node-0x20f8d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f8d0">
-    <command xml:space="preserve">open tool box</command>
-    <result xml:space="preserve">I only understood you as far as wanting to open Tool chest.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="59">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f860" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f860">
-    <command xml:space="preserve">open tool chest</command>
-    <result xml:space="preserve">You open the tool chest revealing a hammer, screwdriver, wrench, and a small box.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="59">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f7f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f7f0">
-    <command xml:space="preserve">open small box</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="58">YES</temporary>
-  </item>
-  <item nodeId="node-0x20f780">
-    <command xml:space="preserve">open tool chest</command>
-    <result xml:space="preserve">You open the tool chest revealing a hammer, screwdriver, wrench, and a small box.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="74">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f710" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f710">
-    <command xml:space="preserve">open small box</command>
-    <result xml:space="preserve">You open the small box, revealing a carkey.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="74">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f6a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f6a0">
-    <command xml:space="preserve">take car key</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="74">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f630" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f630">
-    <command xml:space="preserve">take carkey</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="74">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f5c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f5c0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the metal door)
-It seems to be locked.
-
-The dog is here
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="74">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f550" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f550">
-    <command xml:space="preserve">open metal door</command>
-    <result xml:space="preserve">It seems to be locked.
-
-The Dog runs away
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="74">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f4e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f4e0">
-    <command xml:space="preserve">unlock metal door</command>
-    <result xml:space="preserve">What do you want to unlock the metal door with?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="74">YES</temporary>
-    <children>
-      <child nodeId="node-0x20f470" />
-    </children>
-  </item>
-  <item nodeId="node-0x20f470">
-    <command xml:space="preserve">key</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="73">YES</temporary>
-  </item>
-  <item nodeId="node-0x8edd3a0">
-    <command xml:space="preserve">take field</command>
-    <result xml:space="preserve">That&apos;s hardly portable.
-
-The Dog runs away
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x8bcd4c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x8bcd4c0">
-    <command xml:space="preserve">x xxf</command>
-    <result xml:space="preserve">A large grassy field with a large apple tree in the center of it and a large patch of tall grass next to you. You can just see the sun rising over the shed which is to the east.  To the north is the barn and to the south is a corn field.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x8bd7a40" />
-    </children>
-  </item>
-  <item nodeId="node-0x8bd7a40">
-    <command xml:space="preserve">feed dog</command>
-    <result xml:space="preserve">the dog seems unaffected by it
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x112579e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x112579e0">
-    <command xml:space="preserve">feed dog meth</command>
-    <result xml:space="preserve">the dog seems unaffected by it
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0x20e750">
-    <command xml:space="preserve">get into car</command>
-    <result xml:space="preserve">you get into the car
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="42">YES</temporary>
-    <children>
-      <child nodeId="node-0x20e6e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x20e6e0">
-    <command xml:space="preserve">start car</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="41">YES</temporary>
-  </item>
-  <item nodeId="node-0x20e360">
+  <item nodeId="node-0x2cfb80">
     <command xml:space="preserve">x watch</command>
     <result xml:space="preserve">A small black wrist watch
 
@@ -1516,10 +1643,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0x20e2f0" />
+      <child nodeId="node-0x2cfbf0" />
     </children>
   </item>
-  <item nodeId="node-0x20e2f0">
+  <item nodeId="node-0x2cfbf0">
     <command xml:space="preserve">x apple tree</command>
     <result xml:space="preserve">An apple that is at least 40 feet tall and is beginning to flower
 
@@ -1528,10 +1655,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0x20e280" />
+      <child nodeId="node-0x2cfc60" />
     </children>
   </item>
-  <item nodeId="node-0x20e280">
+  <item nodeId="node-0x2cfc60">
     <command xml:space="preserve">x tall grass</command>
     <result xml:space="preserve">You rustle through the tall grass and find a small piece of crumpled paper
 
@@ -1540,10 +1667,10 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0x20e210" />
+      <child nodeId="node-0x2cfcd0" />
     </children>
   </item>
-  <item nodeId="node-0x20e210">
+  <item nodeId="node-0x2cfcd0">
     <command xml:space="preserve">take paper</command>
     <result xml:space="preserve">Taken.
 
@@ -1553,10 +1680,10 @@ The dog is here
     <changed>YES</changed>
     <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0x20e1a0" />
+      <child nodeId="node-0x2cfd40" />
     </children>
   </item>
-  <item nodeId="node-0x20e1a0">
+  <item nodeId="node-0x2cfd40">
     <command xml:space="preserve">read paper</command>
     <result xml:space="preserve">The paper reads: For a good time call 1-800-696-9911
 
@@ -1566,14 +1693,49 @@ The Dog runs away
     <changed>YES</changed>
     <temporary score="128">YES</temporary>
   </item>
-  <item nodeId="node-0x20f1d0">
-    <command xml:space="preserve">please</command>
-    <result xml:space="preserve">(There is no need to say please.)
-I didn&apos;t understand that sentence.
+  <item nodeId="node-0x2cd720">
+    <command xml:space="preserve">x gum</command>
+    <result xml:space="preserve"> A stick of juicy fruit gum
+
+The Dog runs away
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+  </item>
+  <item nodeId="node-0x2cc980">
+    <command xml:space="preserve">enter car</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="38">YES</temporary>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cc9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cc9f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shed
+A medium sized metal shed made of couragated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. back th the east is the field
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x2cca60" />
+    </children>
+  </item>
+  <item nodeId="node-0x2cca60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
   </item>
 </Skein>
