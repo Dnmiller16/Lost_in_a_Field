@@ -12,7 +12,7 @@ When play begins:
 	let place be location; 
 	repeat with way running through directions: 
 		let place be the room way from the location; 
-		if place is a room, say " [way]".
+		if place is a room, say " [way]".	
 
 Rusty razor blade is a thing. rusty razor blade is carried by the player.  the description is "A rusty razor blade"
 
@@ -50,7 +50,7 @@ Milking bucket is a thing in the barn. It is undescribed. the description is "A 
 
 Pitchfork is a thing in the barn. it is undescribed. the description is "A pitchfork with a wooden handle and a metal head used to move hay around"
 
-Grouns is scenery in barn. the description is "The ground is covered in a thin layer of hay dust and dirt"
+Ground is scenery in barn. the description is "The ground is covered in a thin layer of hay dust and dirt"
 
 [shed]
 Shed is a room. shed is east of Field. the description is "A medium sized metal shed made of corrugated tin sheets. There are many different car parts scattered around the floor. In the corner there are pieces of an old wooden fence as well as some barbed wire. In the other corner is a workbench made of wood with may different things on it.  To the north a car port is attached to the shed behind a locked metal door. Back to the east is the field"
@@ -106,6 +106,9 @@ Corn stalk is scenery in cornfield.  the description is "A green corn stalk that
 
 Dirt is scenery. it is in cornfield. the description is "Brown dirt that the corn is growing out of"
 
+[extra room]
+
+Room1 is a room.
 
 [everything else]
 
@@ -124,7 +127,7 @@ The dog is scenery. The dog is in the field. The dog is portable. the dog is und
 The description of the player is "You are only wearing a sparkly pink speedo and a watch and are otherwise bare"
 
 After entering the Car:
-	say "You get in and breathe a sigh of releif as you start the car to begin your drive back to town. Your only problem now is what you're wearing, but you will worry about this later . . .";
+	say "You get in and breathe a sigh of relief as you start the car to begin your drive back to town. Your only problem now is what you're wearing, but you will worry about this later . . .";
 	end the story finally.
 [partly from get hat cat]
 Every turn: if the Dog is in a room (called the current space) begin;
@@ -188,6 +191,32 @@ say "The paper reads: For a good time call 1-800-696-9911";
 reject the player's command;
 end if;
 
+After reading a command:
+if the player's command includes "take all" begin;
+say "You cant do that";
+reject the player's command;
+end if;
+
+After reading a command:
+if the player's command includes "get all" begin;
+say "You cant do that";
+reject the player's command;
+end if;
+
+After reading a command:
+if the player's command includes "eat gum" begin;
+say "You swallow the gum and wonder why you wasted a perfectly good piece of gum";
+reject the player's command;
+move gum to room1;
+end if;
+
+After reading a command:
+if the player's command includes "chew gum" begin;
+say "You begin to chew the gum";
+reject the player's command;
+move gum to room1;
+end if;
+
 [easter eggs]
 
 After reading a command:
@@ -232,6 +261,7 @@ if the player's command includes "smell shed" begin;
 say "SMELLS LIKE COCAINE!";
 reject the player's command;
 end if;
+
 
 [ To win:
 take key
