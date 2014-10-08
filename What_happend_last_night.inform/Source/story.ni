@@ -1,6 +1,6 @@
 "What happened last night?" by Dakota Miller
 
-[Release along with cover art, a file of "flickr" called "cover.jpg"]
+Release along with cover art.
 
 [from mr kiang]
 When play begins:
@@ -208,6 +208,18 @@ if the player's command includes "eat gum" begin;
 say "You swallow the gum and wonder why you wasted a perfectly good piece of gum";
 reject the player's command;
 move gum to room1;
+end if;
+
+After reading a command:
+if the player's command includes "kill dog" begin;
+say "you are far too ʻturntʻ to do that";
+reject the player's command;
+end if;
+
+After reading a command:
+if the player's command includes "eat" begin;
+say "You dont remember how to eat";
+reject the player's command;
 end if;
 
 After reading a command:
